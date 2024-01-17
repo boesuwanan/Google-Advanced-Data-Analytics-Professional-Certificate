@@ -1,0 +1,337 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/boesuwanan/Google-Advanced-Data-Analytics-Professional-Certificate/blob/main/econ%20num%20meth%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "y34aOd6PsBKB"
+      },
+      "source": [
+        "## Programing and Python in this class"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "r0rrA1pUsXiV"
+      },
+      "source": [
+        "1. Quick review with basic\n",
+        "2. Try not to use package and complicate function.\n",
+        "3. Coding from scratch\n",
+        "4. Focus on algorithm not software usage\n",
+        "5. Learn necessary functions/package when needed"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XK8Qy5tpUYU8"
+      },
+      "source": [
+        "##Basic Calculation"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "yDwRyU6hbnBU"
+      },
+      "source": [
+        "##List"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fgjiRpp6ftdz"
+      },
+      "source": [
+        "##List management"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "PsfcoZ0lnKvm"
+      },
+      "source": [
+        "##Generating lists"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tRirlbTRniB6"
+      },
+      "source": [
+        "##Stat functions for list"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "LjltEfwTaNXy"
+      },
+      "source": [
+        "##Printing"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_JuSib9IbcY5"
+      },
+      "source": [
+        "##Graph plotting"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ERlqRyzWcxdV"
+      },
+      "source": [
+        "##For loop"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "AyD1hODaj6At"
+      },
+      "source": [
+        "##Solow model\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "pX8JbFIIcTk1"
+      },
+      "source": [
+        "\n",
+        "$y_t=f(k_t)=k_t^α$\n",
+        "\n",
+        "$k_{t+1}=(1-d)k_t+sy_t$\n",
+        "\n",
+        "$α=0.9, d=0.1, s=0.1, k_1=0.1$"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ePdTcrpHAhgZ"
+      },
+      "source": [
+        "##Nested/double for loop\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XZEyrEIQAxil"
+      },
+      "source": [
+        "##Saving rate and long run consumption\n",
+        "*   Plot saving rate and long run output level"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "if44ihHAm1-F"
+      },
+      "source": [
+        "##If statement"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "t_RP99pPnvEw"
+      },
+      "source": [
+        "##Comparision\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KkCrYP3qca1s"
+      },
+      "source": [
+        ">, >=, <, <=, ==, !="
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DancX5_PozTR"
+      },
+      "source": [
+        "##Logical operator"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CTWDpMYep6X5"
+      },
+      "source": [
+        "##Solow model with technology change</font>\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "M1JV6_M2ckux"
+      },
+      "source": [
+        "\n",
+        "$y_t=a_t k_t^α$\n",
+        "\n",
+        "$k_{t+1}=(1-d)k_t+sy_t$\n",
+        "\n",
+        "<br>\n",
+        "$a_t=1$ for $t \\lt 500$\n",
+        "<br>\n",
+        "$a_t=1.1$ for  $t \\ge 500$\n",
+        "<br>\n",
+        "$α=0.9,d=0.1, s=0.1, k_1=0.1$"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "mHm6tM38s_jt"
+      },
+      "source": [
+        "##Function"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5zGi-6KvmyW5"
+      },
+      "source": [
+        "##While loop\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "gF_gQIqHnOzP",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 185
+        },
+        "outputId": "b8cfa24a-6973-4e0b-92b7-649bbff23671"
+      },
+      "source": [
+        "i = 1\n",
+        "while i<=10:\n",
+        "  print(i)\n",
+        "  i=i+1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Xhth1CignsGZ"
+      },
+      "source": [
+        "##Break"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "z1Ty9SPgoAs5",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 101
+        },
+        "outputId": "db96ac9a-b8a6-488c-9677-3d09d93b2602"
+      },
+      "source": [
+        "for i in range(1,10):\n",
+        "  print(i)\n",
+        "  if i==5:\n",
+        "    break"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SIJUGjLaoMOp"
+      },
+      "source": [
+        "i = 1\n",
+        "while i<=10:\n",
+        "  if i==5:\n",
+        "    break\n",
+        "  print(i)\n",
+        "  i=i+1"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
